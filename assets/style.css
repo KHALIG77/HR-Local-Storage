@@ -1,0 +1,132 @@
+#add-person {
+  padding-bottom: 10px;
+}
+#add-person input[type=text], #add-person input[type=number] {
+  background-color: black;
+  color: wheat;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px;
+}
+#add-person select {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+#add-person .add-btn {
+  padding: 10px 40px;
+  cursor: pointer;
+  display: block;
+  border-radius: 10px;
+  color: black;
+  margin: auto;
+}
+
+.pop-up {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 200px;
+  border-radius: 10%;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border: 1px solid red;
+}
+.pop-up button {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20%;
+}
+
+.buttons-yes-no button {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body h4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.close {
+  background-color: red;
+}
+
+#action .container {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  min-height: 50px;
+}
+#action .container input {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#action .container button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+#action .search {
+  width: 250px;
+}
+#action #myFilter {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#person-info table {
+  width: 100%;
+}
+#person-info table th {
+  border: 1px solid black;
+}
+#person-info table th span {
+  color: white;
+}
+#person-info table tr {
+  border-radius: 10px;
+  text-align: center;
+}
+#person-info table td {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.d-none {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: aqua;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin: auto;
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

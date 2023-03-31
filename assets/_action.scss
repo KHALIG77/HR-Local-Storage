@@ -1,0 +1,29 @@
+#action {
+  
+    .container{
+        padding-top:15px ;
+      display: flex;
+      justify-content: space-around;
+       min-height:50px;
+      
+    input{
+        background-color: black;
+        color:white;
+        padding:10px;
+    }
+    button{
+        padding: 10px;
+        background-color: black;
+        color:white;
+    }
+    }
+    .search{
+        width: 250px;
+    }
+    #myFilter{
+        background-color: black;
+        color:white;
+        padding:10px;
+    }
+   
+}

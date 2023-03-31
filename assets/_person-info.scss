@@ -1,0 +1,21 @@
+#person-info table{
+    
+    width:100%;
+    th{
+        border:1px solid black;
+        span{
+            color:white;
+        }
+    }
+    tr{
+        border-radius:10px;
+        text-align: center;
+    }
+    td{
+        border-radius:10px;
+        border:2px solid black;
+    }
+} 
+.d-none{
+    display: none;
+}
